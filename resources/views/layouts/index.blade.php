@@ -64,11 +64,11 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-plus"></i></div>
                                 Penambahan Aset
                             </a>
-                            @endrole
                             <a class="nav-link" href="{{ url('/pengajuanaset') }}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tasks"></i></div>
                                 Pengajuan Aset
                             </a>
+                            @endrole
                             <a class="nav-link" href="{{ url('/persetujuanaset') }}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-check"></i></div>
                                 Persetujuan Aset
